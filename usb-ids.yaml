@@ -56,6 +56,7 @@ manufacturers:
     px4_vendor: agam
     contact: contactus@agamrobotics.com
     pids:
+    #Agam legacy VIDs
       - pid: "0x0002"
         board: Agam Autopilot v6X-RT
         date: 2026-08-18
@@ -64,3 +65,9 @@ manufacturers:
         board: Agam MegH7
         date: 2026-08-22
         legacy: true
+    #Agam VID block 0x0010-0x001F reserved
+      - pid: "0x0010"
+        board: Agam BASE RTK
+        date: 2026-09-09
+
+
